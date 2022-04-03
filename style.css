@@ -4,7 +4,7 @@
 }
  
 div {
-    border:solid;
+    border:inset;
     height: 30px;
     width: 30px;
 }
