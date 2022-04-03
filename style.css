@@ -2,12 +2,14 @@
     display: grid;
     grid-template-columns: repeat(16, 30px);
 }
-
-
-.block {
+ 
+div {
     border:solid;
-    background-color: blue;
     height: 30px;
     width: 30px;
+}
+
+.block {
+    background-color: green;
 }
 

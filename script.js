@@ -1,12 +1,12 @@
 const container = document.querySelector(".container");
 
-
 function createDiv(){
    const block = document.createElement('div');
-   block.classList.add('block');
+   block.addEventListener("mouseenter", ()=>{
+    block.classList.add("block")
+   })
    container.appendChild(block);
 }
-
 
 function createGrid() {
     let row = 16;
@@ -18,5 +18,15 @@ function createGrid() {
         }
     }
 }
+
+function hoverColor(){
+    block.addEventListener("mouseenter", function(e){
+        event.target.style.color = "purple";
+    })
+}
+
+
+
+
 
 createGrid()
