@@ -10,7 +10,7 @@ div {
 }
 
 .block {
-    background-color: green;
+    background-color: black;
 }
 
 button {
@@ -25,13 +25,3 @@ button {
     height: 50px;
     width: 125px;
 }
-
-/* #clear-Grid {
-    height: 30px;
-    width: 100px;
-}
-
-#grid-Size {
-    height: 30px;
-    width: 100px;
-} */
